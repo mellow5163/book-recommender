@@ -6,6 +6,7 @@ export const AddBook= ()=> {
 
     const navigate = useNavigate();
 
+    // eslint-disable-next-line no-unused-vars
     const handleNavigate = () => {
     navigate('/recommendations')
     }
@@ -22,6 +23,7 @@ export const AddBook= ()=> {
     const handleBook2Change = (e) => setBook2(e.target.value);
     const handleBook3Change = (e) => setBook3(e.target.value);
 
+    // eslint-disable-next-line no-unused-vars
     const handleSubmit=(e)=> { 
         e.preventDefault();
         //logs books to the console
