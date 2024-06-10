@@ -1,0 +1,30 @@
+.recs{
+    position: absolute;
+    top: 30px; left: 325px;
+    width: 800px;
+    height: 750px;
+    background: #FFF0EC;
+    color: #534343;
+    border-radius: 10px;
+    padding: 150px 40px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    margin-bottom: 70px;
+}
+
+.recs h1{
+    margin-top: -65px;
+    padding-bottom: 12px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recs button {
+    margin-top: 30px;
+    text-align: center;
+    left: 280px;
+
+}

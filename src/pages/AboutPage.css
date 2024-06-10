@@ -1,0 +1,105 @@
+.about{
+    position: absolute;
+    top: 40px; left: 335px;
+    width: 800px;
+    height: 700px;
+    background: #FFF0EC;
+    color: #534343;
+    border-radius: 10px;
+    padding: 150px 40px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    margin-bottom: 70px;
+}
+
+.about h1{
+    margin-top: -75px;
+    padding-bottom: 12px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about h2{
+    margin-top: 0px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about h3{
+    margin-top: 15px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about h4{
+    margin-top: 17px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about h5{
+    margin-top: 19px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about p2{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.about p3{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.about p4{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.about p5{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.navigate-button{
+    left: 280px;
+    position: absolute;
+    width: 32%;
+    height: 27px;
+    background-color: #3c9c9c;
+    border: 3px none;
+    outline: 3px none;
+    border-radius: 100px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-weight: 725;
+    align-items: center;
+    margin: -15px 0 15px;
+    margin-top: 550px;
+    margin-bottom: -20px;
+}
