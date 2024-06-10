@@ -5,10 +5,9 @@ import App from './App';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
 } from "react-router-dom"
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes} from 'react-router-dom';
+//import { BrowserRouter, Routes} from 'react-router-dom';
 import AboutPage from './pages/AboutPage';
 import Recommendations from './pages/Recommendations';
 
