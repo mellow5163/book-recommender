@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react'
 //import { useNavigate } from 'react-router-dom';
 
 function App() {
-
+// eslint-disable-next-line no-unused-vars
   const [data, setData] = useState([{}])
 
   /*
@@ -22,7 +22,7 @@ function App() {
 
 
 
-
+// eslint-disable-next-line no-unused-vars
   return (
     <div className="App">
       <Title></Title>
