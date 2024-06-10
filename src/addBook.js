@@ -25,7 +25,6 @@ export const AddBook= ()=> {
 
     // eslint-disable-next-line no-unused-vars
     const handleSubmit=(e)=> { 
-        // eslint-disable-next-line no-unused-vars
         e.preventDefault();
         //logs books to the console
         console.log('Book 1: ', book1)
