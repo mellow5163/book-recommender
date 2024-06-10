@@ -15,7 +15,7 @@ export const AddBook= ()=> {
     const [book2, setBook2] = useState('')
     const [book3, setBook3] = useState('')
     const [error1, setError] = useState('')
-    const [results, setResults] = useState([]);
+    //const [results, setResults] = useState([]);
 
     //check if book is in dataset and incorporate fuzzy searching, need to connect with backend for this
     const handleBook1Change = (e) => setBook1(e.target.value);
@@ -50,7 +50,7 @@ export const AddBook= ()=> {
             }
             else {
                 console.log('Success', data)
-                setResults(data)
+                //setResults(data)
                 navigate('/recommendations', { state: { results: data } });
                 setError('')
             }
