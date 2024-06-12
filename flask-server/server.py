@@ -129,7 +129,7 @@ def register_books():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000))  # Use the port specified by Render
+    port = int(os.environ.get('PORT', 4000))  # Use the port specified by Render
     app.run(host='0.0.0.0', port=port)  # Listen on all network interfaces
     
 
@@ -148,5 +148,5 @@ if __name__ == "__main__":
 
 
 
-if __name__ == "__main__":
-    app.run(port=4000, debug=True) #in development mode
+#if __name__ == "__main__":
+    #app.run(port=4000, debug=True) #in development mode
