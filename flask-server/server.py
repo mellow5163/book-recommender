@@ -9,6 +9,7 @@ import sklearn.model_selection
 from sklearn.neighbors import NearestNeighbors
 from scipy.sparse import csr_matrix
 import re
+import os
 
 from flask_cors import CORS
 from fuzzywuzzy import process
@@ -124,6 +125,13 @@ def register_books():
     
 
     return jsonify({'message': 'Books recieved'})
+
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 5000))  # Use the port specified by Render
+    app.run(host='0.0.0.0', port=port)  # Listen on all network interfaces
+    
 
 
 
